@@ -9,7 +9,7 @@ namespace DataCardio.Test
         [TestMethod]
         public void TestCardio()
         {
-            double etàsoggetto = 20;
+            double etàsoggetto= 20;
             double risaspettato = 200;
             double riscalcolato = DataCardio.
         }
