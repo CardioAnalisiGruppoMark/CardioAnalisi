@@ -5,19 +5,19 @@ namespace CardioLibrary
 {
     public class DataCardio
     {
-        public double CalcoloMaxBattitiCardiaci(int eta)
+        public double CalcoloBattitiMassimiCardiaci(int eta)
         {
-            double maxbattiti = 0;
-            maxbattiti= 220 - eta;
-            return maxbattiti;
+            double battitimassimi = 0;
+            battitimassimi = 220 - eta;
+            return battitimassimi;
         }
-        public double CalcoloMaxBattitiPalestra(int eta)
+        public double CalcoloBattitiMassimiinPalestra(int eta)
         {
-            double maxbattiti = 0;
-            double maxbattitipalestra = 0;
-            maxbattiti = 220 - eta;
-            maxbattitipalestra = (90 * maxbattiti) / 100;
-            return maxbattitipalestra;
+            double battitimassimi = 0;
+            double battitimassimiinpalestra = 0;
+            battitimassimi = 220 - eta;
+            battitimassimiinpalestra = (90 * maxbattiti) / 100;
+            return battitimassimiinpalestra;
         }
         public string Battiti_Riposo(double battiti)
         {
