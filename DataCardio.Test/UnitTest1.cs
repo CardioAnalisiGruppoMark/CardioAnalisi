@@ -6,22 +6,22 @@ namespace DataCardio_test
     public class Cardio_test
     {
         [TestMethod]
-        public void TestCalcoloMaxBattitiCardiaci()
+        public void TestCalcoloBattitiMassimiCardiaci()
         {
-            double risultato =DataCardio.CalcoloMaxBattitiCardiaci(16);
+            double risultato = DataCardio.CalcoloBattitiMassimiCardiaci(16);
             Assert.AreEqual(204,risultato);
         }
         
-        [TestMethod]oMaxBattitiPalestra()
+        [TestMethod]BattitiMassimiPalestra()
         {
-            double risultato = DataCardio.CalcoloMaxBattitiPalestra(16);
+            double risultato = DataCardio.CalcoloBattitiMassimiPalestra(16);
             Assert.AreEqual(183.6, risultato); 
         }
 
         [TestMethod]
-        public void TestCalcoloMinBaiottitiPalestra()
+        public void TestCalcoloBattitiMinimiinPalestra()
         {
-            double risultato = DataCardio.CalcoloMinBattitiPalestra(16);
+            double risultato = DataCardio.CalcoloBattitiMinimiinPalestra(16);
             Assert.AreEqual(142.8,risultato);
         }
 
